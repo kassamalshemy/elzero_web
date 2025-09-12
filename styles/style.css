@@ -1,6 +1,32 @@
-*{
-    /* background-color: lightblue;
-    color: white;
-    font-family: Arial, sans-serif; */
+body > *:not(header, footer) {
     border: 1px solid black;
 }
+header{
+    background-color: burlywood;
+    margin-bottom: 10px !important;
+}
+footer{
+    background-color: rgb(231, 211, 185);
+    margin-top: 10px !important;
+}
+.headandfoot{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    min-height: 77vh;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ pre{
+    font-size: large;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+ }
