@@ -1,105 +1,107 @@
-html, body {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body > *:not(header, footer) {
-    border: 1px solid black;
+  border: 1px solid black;
 }
-header{
-    background-color: burlywood;
-    margin-bottom: 10px !important;
+header {
+  background-color: burlywood;
+  margin-bottom: 10px !important;
 }
-footer{
-    background-color: rgb(231, 211, 185);
-    margin-top: 10px !important;
+footer {
+  background-color: rgb(231, 211, 185);
+  margin-top: 10px !important;
 }
-.headandfoot{
-    display: flex;
-    justify-content: center;
-    height: 100px;
-    margin: 0;
-    padding: 0;
+.headandfoot {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
 
-}
-
-main{
-    min-height: 77vh;
-    padding-left: 30px;
+main {
+  min-height: 77vh;
+  padding-left: 30px;
 }
 h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
- pre{
-    font-size: large;
-    font-style: normal;
-    font-family: 'Times New Roman', Times, serif;
- }
-
-
- /* table */
-table{
-    border: 1px solid black;
+pre {
+  font-size: large;
+  font-style: normal;
+  font-family: "Times New Roman", Times, serif;
 }
- thead{
-    background-color: chocolate;
-    border: 1px solid black;
-    height: 30px;
-} 
+
+/* table */
+table {
+  border: 1px solid black;
+}
+thead {
+  background-color: chocolate;
+  border: 1px solid black;
+  height: 30px;
+}
 tr {
-border: 1px solid black;
-/* height: 50px; */
+  border: 1px solid black;
+  /* height: 50px; */
 }
-td{
-    width: 100px;
+td {
+  width: 100px;
 }
 
 h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: blanchedalmond;
-    height: 30px;
-    width: 300px;
-    border-radius: 30px;
-    border: 3px solid rgb(243, 205, 148);
-    /* text-align: center; */
-    /* that is realy cool CSS PEAK */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: blanchedalmond;
+  height: 30px;
+  width: 300px;
+  border-radius: 30px;
+  border: 3px solid rgb(243, 205, 148);
+  /* text-align: center; */
+  /* that is realy cool CSS PEAK */
 }
-#div_1{
-    border: 5px solid rgb(1, 1, 122);
-    border-radius: 70px 0px 70px 0px;
-    background-color: rgba(75, 203, 235, 0.774);
-    color: white;
-    font-size: 24px;
-    margin-bottom: 10px;
-    width: 150px;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#div_1 {
+  border: 5px solid rgb(1, 1, 122);
+  border-radius: 70px 0px 70px 0px;
+  background-color: rgba(75, 203, 235, 0.774);
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 hr {
-    margin: 0px;
+  margin: 0px;
 }
 
-
-
-#pagetitle{
-    border: 3px solid black;
-    width: 300px;
+#pagetitle {
+  border: 3px solid black;
+  width: 300px;
 }
 
-
-
-
-
-
-
-
-
-
+#theform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(179, 179, 255);
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
