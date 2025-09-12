@@ -1,43 +1,154 @@
 <!DOCTYPE html>
+<!-- 
+better comment extention 
+! impotant comment
+? question comment
+* note comment
+TODO: task comment
+** warning comment
+-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Elzero_web</title>
-    <link rel="stylesheet" href="/styles/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
     <header class="headandfoot">
-        <h1>This is the header for now</h1>
+      <h1>This is the header for now</h1>
     </header>
     <main>
-        <h1>Book Store</h1>
-                <h2>first chapter</h2>
-            <pre>Welcome to the book store 
-                        The first of it's kind in the world</pre>
-            <p>MY WORLD!</p>
-            <p>MY WORLD!</p>
-            <pre>
+      <h1 id="pagetitle">Book Store</h1>
+      <h2>first chapter</h2>
+      <pre>
+Welcome to the book store 
+                        The first of it's kind in the world
+      </pre>
+      <p>MY WORLD!</p>
+      <p>MY WORLD!</p>
+      <pre>
                 ALL text formating -<b>BOLD</b>  -<i>italic</i> -<strong>strong</strong>
                 -<em>emphasis</em> -<mark>marked</mark> -<del hidden>deleted from text</del>
                 -<ins>inserted</ins> -<sub>subscript</sub> -<sup>superscript</sup>
                 -<small>small</small> -<u>underlined</u>   -<br> line break
                 -<code>code</code> -<q>short inline quotation</q> -<s>strikethrough</s>
                 -<var>variable</var> -<wbr>word break opportunity
-            </pre>
-            <a href="/src/next_page.html" target="_blank" title="new tab">anchor link to the next page</a>
-            <br>
-            <a href="/src/next_page.html" target="_parent" title="go to next page">anchor link to the next page</a>
-            <br>
-            <a href="/src/next_page.html" target="_self" title="go to next page">anchor link to the next page</a>
-            <br>
-            <a href="/src/next_page.html" target="_top" title="go to next page">anchor link to the next page</a>
-            <br>
-            <img src="/images/ninja.png" alt="ninja yo" title="the only photo i found" width="100px">
+      </pre>
+      <a href="/src/next_page.html" target="_blank" title="new tab"
+        >Anchor Next page</a
+      >
+      <a
+        href="https://www.flaticon.com/free-icon/ninja_1071164?related_id=1071062&origin=search"
+        target="_blank"
+      >
+        <img
+          src="/images/ninja.png"
+          alt="ninja yo"
+          title="the only photo i found"
+          width="100px"
+        />
+      </a>
+      <a href="file:///D:/git_repos/elzero_web/elzero_web" target="_blank"
+        >README.md</a
+      >
+
+      <hr style="width: 500px" />
+
+      <h3>let's make a list</h3>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>
+          JavaScript
+          <ul>
+            <li>Vuejs</li>
+            <li>Reactjs</li>
+            <li>Angularjs</li>
+          </ul>
+        </li>
+      </ul>
+
+      <hr style="width: 500px" />
+
+      <h3>ordered list</h3>
+      <ol reversed start="10" type="A">
+        <li>Name</li>
+        <li>Address</li>
+        <li>ID</li>
+      </ol>
+
+      <hr style="width: 500px" />
+
+      <h3>description list</h3>
+      <dl>
+        <dt>HTML</dt>
+        <dd>Hypertext Markup Language</dd>
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets</dd>
+        <dt>JavaScript</dt>
+        <dd>A programming language for the web</dd>
+      </dl>
+
+      <hr style="width: 500px" />
+
+      <h3>TABLE</h3>
+      <caption>
+        caption for the table
+      </caption>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Country</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>John Doe</td>
+            <td>30</td>
+            <td>USA</td>
+          </tr>
+          <tr>
+            <td>Jane Smith</td>
+            <td>25</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Sam Brown</td>
+            <td>35</td>
+            <td>Canada</td>
+          </tr>
+        </tbody>
+        <tfoot style="background-color: rgb(209, 192, 167)">
+          <td colspan="2" style="text-align: center">total</td>
+          <td>valhala</td>
+        </tfoot>
+      </table>
+
+      <hr style="width: 500px" />
+
+      <h3>stuff</h3>
+      <p>
+        <span
+          >just a span with out any special formatting inline element <br />
+          and break line</span
+        >
+      </p>
+
+      <hr style="width: 500px" />
+
+      <h3 id="test">The most important tag</h3>
+      <div id="div_1">THE &lt;div&gt;</div>
+
+      <hr style="width: 500px" />
+
+      <h3>THE magnificent FORM</h3>
+      <form action=""></form>
     </main>
     <footer class="headandfoot">
-        <h1>This is the footer for now</h1>
+      <h1>This is the footer for now</h1>
     </footer>
-
-</body>
+  </body>
 </html>
