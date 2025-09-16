@@ -3,6 +3,9 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 body > *:not(header, footer) {
@@ -19,19 +22,24 @@ footer {
 .headandfoot {
   display: flex;
   justify-content: center;
+  align-items: center;
+  border: 1px solid black;
   height: 100px;
+  width: 500px;
   margin: 0;
   padding: 0;
 }
 
 main {
-  min-height: 77vh;
-  padding-left: 30px;
+  width: 100%;
+  /* min-height: 77vh; */
+  /* padding-left: 30px; */
 }
 h1 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  text-align: center;
+  /* align-items: center; */
 }
 pre {
   font-size: large;
@@ -87,6 +95,7 @@ hr {
 }
 
 #pagetitle {
+  align-self: center;
   border: 3px solid black;
   width: 300px;
 }

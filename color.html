@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Change Text Color</title>
+  </head>
+  <body>
+    <p id="myText">This is some text.</p>
+    <button id="colorButton">Change Text Color</button>
+
+    <script>
+      // Get references to the HTML elements
+      const myTextElement = document.getElementById("myText");
+      const colorButton = document.getElementById("colorButton");
+
+      // Add an event listener to the button
+      colorButton.addEventListener("click", function () {
+        // Change the text color of myTextElement
+        myTextElement.style.color = "blue"; // You can change this to any valid CSS color
+      });
+    </script>
+  </body>
+</html>
