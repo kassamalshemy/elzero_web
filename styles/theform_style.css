@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/anime.jpg");
+  background-image: url("../images/anime.jpg");
   background-size: 100% auto;
   /* background-repeat: no-repeat; */
   background-position: top;
